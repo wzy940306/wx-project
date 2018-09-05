@@ -1,0 +1,44 @@
+<view class="weui-cells weui-cells_after-title">
+
+
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_select">
+      <view class="weui-cell__bd">
+        <picker bindchange="bindAccountChange" value="{{accountIndex}}" range="{{accounts}}">
+          <view class="weui-select">{{accounts[accountIndex]}}</view>
+        </picker>
+      </view>
+    </view>
+    <view class="weui-cell weui-cell_select">
+
+      <view class="weui-cell__bd weui-cell__bd_in-select-before">
+     
+        <view class="page-section">
+   
+
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" bindinput="bindKeyInput" value='{{inputVal}}' auto-focus placeholder="将会获取焦点"/>
+      </view>
+   
+  </view>
+      </view>
+   
+
+
+        <button class="weui-btn" type="primary" bindtap="search">搜索
+        </button>
+          
+     
+    </view>
+
+  </view>
+
+</view>
+
+        <view class="weui-article__p">
+                       {{remark}}
+           </view>
+
+             <view class="weui-article1">
+                          {{datetime}}
+           </view>
