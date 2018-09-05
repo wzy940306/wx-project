@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/theme/theme",
+"pages/kuaidi/kuaidi",
+"pages/kongqi/kongqi",
+    "pages/list/list"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00a2ea",
+    "navigationBarTitleText": "便民小程序",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#353535",
+    "selectedColor": "#1296db",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "images/天气.png",
+      "selectedIconPath": "images/天气s.png",
+      "text": "天气预报"
+    }, {
+      "pagePath": "pages/kongqi/kongqi",
+      "iconPath": "images/空气质量.png",
+      "selectedIconPath": "images/空气质量s.png",
+      "text": "空气质量"
+    },
+    {
+      "pagePath": "pages/kuaidi/kuaidi",
+      "iconPath": "images/快递.png",
+      "selectedIconPath": "images/快递s.png",
+      "text": "快递物流"
+    }]
+  },
+  "networkTimeout": {
+    "request": 120000
+  }
+}
